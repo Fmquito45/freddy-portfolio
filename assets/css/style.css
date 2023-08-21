@@ -1,0 +1,23 @@
+* {
+    border: rgb(230, 34, 34) solid 2px;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(138, 249, 212);
+    color: black;
+}
+
+h1 {
+    background-color: aquamarine;
+    padding: 15px 0px 0px 20px ;
+}
+
+.page-select {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
