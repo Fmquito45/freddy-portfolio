@@ -6,18 +6,21 @@
 .header {
     display: flex;
     flex-direction: row;
-    background-color: rgb(138, 249, 212);
+    background-color: #706e6e;
     color: black;
 }
 
 h1 {
-    background-color: aquamarine;
+    background-color: #5e5c5c;
     padding: 15px 0px 0px 20px ;
 }
 
 .page-select {
+    background-color: rgb(47, 176, 24);
     display: flex;
     position: absolute;
     right: 0;
     top: 20px;
-}
+} 
+
+
