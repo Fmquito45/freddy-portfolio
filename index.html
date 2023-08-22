@@ -1,76 +1,122 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Freddy Quito Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <h1>Freddy Quito</h1>
-        <div class="page-select">
-            <nav>
-                <a href="">About Me</a>
-            </nav>
-            <nav>
-                <a href="">Work</a>
-            </nav>
-            <nav>
-                <a href="">Contact Me</a>
-            </nav>
-            <nav>
-                <a href="">Resume</a>
-            </nav>
-        </div>
+      <h1>Freddy Quito</h1>
 
+      <nav>
+        <a href="#about-me-1">About Me</a>
+        <a href="#work-2">Work</a>
+        <a href="#contact-me-3">Contact Me</a>
+      </nav>
     </header>
 
     <main>
-        <section>Cool Subtitle here!</section>
-        <section>
-            <h2>About Me</h2>
-            <p>
-                Hello! I'm Freddy Quito, a passionate web developer with a strong interest in creating user-friendly and 
-                visually apearing websites. I have experience in HTML and CSS. And I am always interested in learning new 
-                technologies and languagues to enhance my skills as a web developer!
-            </p>
-        </section>
-        <section>
-            <h2>Work</h2>
-            <div>
-                <div>
-                    <img src="./assets/images/Prework.png" alt="Prework Study Guide">
-                    <div>
-                        <h3>Prework Study Guide</h3>
-                        <p>HTML/CSS/JAVASCRIPT</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="./assets/images/Snippet.png" alt="Snippet Sheet">
-                    <div>
-                        <h3>Snippet</h3>
-                        <p>HTML/CSS</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>Contact Me</h2>
-            <div>
-                <nav><a href="#">Email</a></nav>
-                <nav><a href="#">929.461.9299</a></nav>
-                <nav><a href="https://github.com/Fmquito45">GitHub</a></nav>
-            </div>
-        </section>
+      <section id="about-me-1">
+        <img class="my-pic" src="./assets/images/personal.png" alt="ME" />
+        <div class="about-me">
+          <h2>About Me</h2>
+          <p>
+            Hello! I'm Freddy Quito, a passionate web developer with a strong
+            interest in creating user-friendly and visually apearing websites. I
+            have experience in HTML and CSS. And I am always interested in
+            learning new technologies and languagues to enhance my skills as a
+            web developer!
+          </p>
+        </div>
+      </section>
+      <section id="work-2">
+        <h2>Work</h2>
+        <div class="projects">
+          <div class="imageBox flex first">
+            <a
+              href="https://fmquito45.github.io/prework-study-guide/"
+              class="flex"
+            >
+              <img
+                class="web-image prework"
+                src="./assets/images/Prework.png"
+                alt="Prework Study Guide"
+              />
 
+              <div>
+                <h3>Prework Study Guide</h3>
+                <p>HTML/CSS/JAVASCRIPT</p>
+              </div>
+            </a>
+          </div>
+          <div class="imageBox flex">
+            <a
+              href="file:///Users/Freddy.Quito/Desktop/classproject/2-unit-mini-project/index.html"
+              class="flex"
+            >
+              <img
+                class="web-image"
+                src="./assets/images/Snippet.png"
+                alt="Snippet Sheet"
+              />
+
+              <div>
+                <h3>Snippet</h3>
+                <p>HTML/CSS</p>
+              </div>
+            </a>
+          </div>
+          <div class="imageBox flex">
+            <a
+              href="file:///Users/Freddy.Quito/Desktop/classproject/2-unit-mini-project/index.html"
+              class="flex"
+            >
+              <img
+                class="web-image"
+                src="./assets/images/Snippet.png"
+                alt="Snippet Sheet"
+              />
+
+              <div>
+                <h3>Snippet</h3>
+                <p>HTML/CSS</p>
+              </div>
+            </a>
+          </div>
+          <div class="imageBox flex">
+            <a
+              href="file:///Users/Freddy.Quito/Desktop/classproject/2-unit-mini-project/index.html"
+              class="flex"
+            >
+              <img
+                class="web-image"
+                src="./assets/images/Snippet.png"
+                alt="Snippet Sheet"
+              />
+
+              <div>
+                <h3>Snippet</h3>
+                <p>HTML/CSS</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="contact-me-3">
+        <h2>Contact Me</h2>
+        <div>
+          <nav>
+            <a href="mailto:email@email.com">Email</a>
+            <a href="tel:9292334545">929.233.4545</a>
+            <a href="https://github.com/Fmquito45">GitHub</a>
+          </nav>
+        </div>
+      </section>
     </main>
 
-    <footer> Freddy Quito Porfolio &copy; 2023</footer>
-</body>
-</html> 
-
-
+    <footer>Freddy Quito Porfolio &copy; 2023</footer>
+  </body>
+</html>
