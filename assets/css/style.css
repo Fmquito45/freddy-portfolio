@@ -105,7 +105,7 @@ nav a {
 /*set prework image to proper fit on screen*/
 .prework {
    width: 100%;
-   height: 25%;
+   height: 100%;
    margin-left: auto; 
 }
 /*allow images to fade 50% when hovered over*/
