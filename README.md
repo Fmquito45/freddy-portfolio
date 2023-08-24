@@ -1,4 +1,4 @@
-# <Freddy-Quito-Portfolio>
+# Freddy-Quito-Portfolio
 
 ## Description
 
