@@ -119,6 +119,7 @@ footer {
   justify-content: space-around;
 }
 
+
 /*allow proper screen viewing on different devices*/
 @media screen and (max-width: 768px){
     .projects{
