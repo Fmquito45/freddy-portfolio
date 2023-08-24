@@ -1,9 +1,8 @@
 * {
-  /*border: rgb(230, 34, 34) solid 1px;*/
   margin: 0;
   padding: 0;
 }
-
+/*adjust properties for proper disply of header*/
 .header {
   display: flex;
   background-color: #706e6e;
@@ -14,35 +13,35 @@
   padding: 10px 15px
 }
 
+/*set heading size and add curves to corners*/
 h1 {
   font-size: 4em;
   background-color: #8e7b7b;
   padding: 10px;
   border-radius: 35px;
 }
-
+/*assign a heading font and mark top border as seperating sections*/
 h2 {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border-top:black solid 2px;
 }
-
+/*set flex */
 #about-me-1 {
   display: flex;
   align-items: end;
 }
-
+/*allows to scroll to clicked link smoothly*/
 html {
   scroll-behavior: smooth;
 }
-
+/*set flex to be in row order*/
 nav {
   padding-right: 15px;
   font-size: 20px;
-  /* background-color: #706e6e; */
   display: flex;
   justify-content: flex-end;
 }
-
+/*style navigation links*/
 nav a {
   color: black;
   text-decoration: none;
@@ -50,29 +49,29 @@ nav a {
 }
 
 
-
+/*set correct size for image*/
 .my-pic {
   background-color: blue;
   height: 145px;
   width: 145px;
 }
-
+/*space surrounding with padding*/
 .about-me {
   padding: 3%;
 }
-
+/*set flex */
 .section-right {
   display: flex;
   justify-content: flex-end;
 }
 
 
-
+/*assign flex wrap */
 .projects{
     display: flex;
     flex-wrap: wrap;
 }
-
+/*set prperties for images of deployed web*/
 .imageBox {
   display: flex;
   margin: 5px;
@@ -80,12 +79,12 @@ nav a {
   max-height: 25%;
   flex-basis: calc(50% - 1em);
 }
-
+/*style works to be in columns*/
 .flex {
   display: flex;
   flex-direction: column;
 }
-
+/*set proper alignment of work images to be on bottom right*/
 .flex a div {
   display: flex;
   flex-direction: column;
@@ -93,33 +92,34 @@ nav a {
   align-items: flex-end;
   color: black;
 }
+
+/*set image width to be full*/
 .web-image {
   width: 100%;
 }
-
+/*set felx basis*/
 .first{
     flex-basis: 100%;
     max-height: 100%;
 } 
+/*set prework image to proper fit on screen*/
 .prework {
-   
-    width: 100%;
-
-  /* height: 25%;
-
-    margin-left: auto; */
+   width: 100%;
+   height: 25%;
+   margin-left: auto; 
 }
+/*allow images to fade 50% when hovered over*/
 .web-image:hover {
   opacity: .5;
 }
-
+/*set properties to footer to centered */
 footer {
   padding: 10px 0 10px 0;
   display: flex;
   justify-content: space-around;
 }
 
-
+/*allow proper screen viewing on different devices*/
 @media screen and (max-width: 768px){
     .projects{
         display: flex;
